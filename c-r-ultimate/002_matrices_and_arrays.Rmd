@@ -1,0 +1,125 @@
+---
+title: "dummy"
+author: "ravi.prakash"
+date: "2024-03-16"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Matrices
+
+-   Matrices and Arrays
+
+-   \
+
+```{r}
+vec <- c(1:24)
+```
+
+```{r}
+vec
+```
+
+```{r}
+mat = matrix(data = vec, nrow = 6, ncol = 4, byrow= TRUE)
+```
+
+```{r}
+mat
+```
+
+```{r}
+element <- mat[2, 3]
+```
+
+```{r}
+element
+```
+
+```{r}
+vec <- c(1, 2, 3, 4, 5, 6, 7, 8)
+
+arr <- array(vec, dim = c(2, 2, 2))
+```
+
+```{r}
+print(dim(arr))
+```
+
+```{r}
+arr[1,2,1]
+```
+
+```{r}
+
+```
+
+```         
+```
+
+### List Datatype
+
+```{r}
+install.packages("listviewer")
+```
+
+```{r}
+library("listviewer")
+```
+
+```{r}
+name_vec = c("Ravi", "Shruti")
+age_vec = c(26, 26)
+is_married = c(F, F)
+```
+
+```{r}
+list_of_data <- list(name_vec, age_vec, is_married)
+```
+
+```{r}
+list_of_data
+```
+
+```{r}
+list_of_data[1]
+```
+
+```{r}
+class(list_of_data[1])
+```
+
+```{r}
+list_of_data[[1]]
+```
+
+```{r}
+class(list_of_data[[1]])
+```
+
+```{r}
+
+```
+
+```{r}
+list_of_data[[1]][1]
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
