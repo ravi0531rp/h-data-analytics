@@ -1,0 +1,89 @@
+---
+title: "dummy"
+author: "ravi.prakash"
+date: "2024-03-16"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### Dataframes
+
+```{r}
+library(dplyr)
+```
+
+```{r}
+name <- c("Ravi", "Shruti", "Dummy1", "Dummy2", "Dummy3", "Dummy4", "dUMMY5")
+age <- c(26, 26, 25, 40, 45, 34, 48)
+is_married <- c(FALSE, FALSE, FALSE, TRUE, TRUE, TRUE, TRUE)
+
+data <- tibble(Name = name, Age = age, Is_married = is_married) 
+# can also use data.frame instead of tibble. But tibble is better
+```
+
+```{r}
+data
+```
+
+```{r}
+head(data, n = 2)
+```
+
+```{r}
+tail(data, n = 3)
+```
+```{r}
+data[,1]
+```
+
+
+```{r}
+data[3,]
+```
+```{r}
+data[2,3]
+```
+
+
+```{r}
+data$Age
+```
+
+```{r}
+data["Age"]
+```
+
+```{r}
+class(data["Age"])
+```
+
+```{r}
+data$Age
+```
+
+```{r}
+data["Age"] > 30
+```
+
+```{r}
+data[data["Age"] > 30, ]
+```
+
+```{r}
+class(data["Age"])
+```
+
+```{r}
+class(data)
+```
+
+```{r}
+class(data$Name)
+```
+
+```{r}
+
+```

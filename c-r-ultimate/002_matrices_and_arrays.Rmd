@@ -40,7 +40,7 @@ element
 ```
 
 ```{r}
-vec <- c(1, 2, 3, 4, 5, 6, 7, 8)
+vec <- c("Ravi", 2, 3, 4, 5, 6, 7, 8)
 
 arr <- array(vec, dim = c(2, 2, 2))
 ```
@@ -71,9 +71,9 @@ library("listviewer")
 ```
 
 ```{r}
-name_vec = c("Ravi", "Shruti")
-age_vec = c(26, 26)
-is_married = c(F, F)
+name_vec = c("Ravi", "Shruti","Test")
+age_vec = c(26, 26,"hh")
+is_married = c(F, F,F)
 ```
 
 ```{r}

@@ -18,10 +18,12 @@ Double Variables
 
 ```{r}
 variable <- c(2, 11.2, 0, 7.0)
+variable
 ```
 
 ```{r}
 variable <- c(2L, 4L, 10L)
+variable
 ```
 
 ```{r}
@@ -29,7 +31,7 @@ variable <- c(TRUE, FALSE)
 ```
 
 ```{r}
-variable <- c(4, "dd")
+variable <- c(4, "Ravi")
 ```
 
 ```{r}
@@ -42,6 +44,40 @@ data <- c(2.9, 4.6, 8.9)
 
 ```{r}
 data
+```
+
+```{r}
+vec <- c(2,4,2,3,2,4,4,544,93)
+vec
+```
+
+```{r}
+vec[c(1:6)]
+```
+
+```{r}
+vec[10]
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
+```
+
+```{r}
+
 ```
 
 `{as.integer(data)}`
