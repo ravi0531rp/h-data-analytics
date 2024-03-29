@@ -29,15 +29,24 @@ mat[2,2]
 ```
 
 ```{r}
-
+name <- c("Ravi", "Shruti", "Dummy1", "Dummy2", "Dummy3", "Dummy4", "dUMMY5")
+age <- c(26, 26, 25, 40, 45, 34, 48)
+is_married <- c(FALSE, FALSE, FALSE, TRUE, TRUE, TRUE, TRUE)
 ```
 
 ```{r}
+library(dplyr)
+```
 
+```{}
 ```
 
 ```{r}
+data <- tibble(Name = name, Age = age, Is_married = is_married) 
+```
 
+```{r}
+data
 ```
 
 ```{r}
